@@ -18,3 +18,16 @@ let att = document.createAttribute("congressional-district");
 att.value = "5";
 art.setAttributeNode(att);
 console.log(att);
+
+// Jisie walkthrough
+// var node = document.createElement("LI");                 // Create a <li> node
+// var textnode = document.createTextNode("Water");         // Create a text node
+// node.appendChild(textnode);                              // Append the text to <li>
+// document.getElementById("myList").appendChild(node);     // Append <li> to <ul> with id="myList"
+
+// const articleRef = document.querySelector("#article--5thDistrict");
+// let paragraphElement = document.createElement("p");
+// let paragraphTextNode =  document.createTextNode("Made ip Stuff");
+// paragraphElement.appendChild(paragraphTextNode);
+// console.log(paragraphElement);
+// articleRef.appendChild(paragraphElement);
